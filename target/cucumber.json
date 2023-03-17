@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-17T05:01:54.348Z",
+        "line": 4,
+        "name": "User should be able to login with valid email and password",
+        "description": "",
+        "id": "login-feature;user-should-be-able-to-login-with-valid-email-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.LoginSteps.userInTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid email address",
+            "match": {
+              "location": "stepDef.LoginSteps.userEnterValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid password",
+            "match": {
+              "location": "stepDef.LoginSteps.userEnterValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on Log In button",
+            "match": {
+              "location": "stepDef.LoginSteps.userClicksOnLogInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to successfully login",
+            "match": {
+              "location": "stepDef.LoginSteps.userShouldBeAbleToSuccessfullyLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]
