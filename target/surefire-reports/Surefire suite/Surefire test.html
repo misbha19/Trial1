@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 17 01:01:53 EDT 2023</td>
+<td>Started on:</td><td>Tue Mar 21 23:41:09 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (606 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17958 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -70,15 +70,31 @@ function toggleAllBoxes() {
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='stepDef.TestRunner.runScenario()'><b>runScenario</b><br>Test class: stepDef.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid email and password", "Optional[Login Feature]"</td>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should not be able to login with valid email and invalid password", "Login Feature"</td>
 <td></td>
-<td>0</td>
-<td>stepDef.TestRunner@305fd85d</td></tr>
+<td>3</td>
+<td>TestRunner@7880cdf3</td></tr>
+<tr>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid email and password", "Login Feature"</td>
+<td></td>
+<td>6</td>
+<td>TestRunner@7880cdf3</td></tr>
+<tr>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should not be able to login with invalid email and password", "Login Feature"</td>
+<td></td>
+<td>3</td>
+<td>TestRunner@7880cdf3</td></tr>
+<tr>
+<td title='TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should not be able to login with invalid email and valid password", "Login Feature"</td>
+<td></td>
+<td>3</td>
+<td>TestRunner@7880cdf3</td></tr>
 </table><p>
 </body>
 </html>
